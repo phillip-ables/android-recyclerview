@@ -34,6 +34,9 @@ public class MainActivity extends AppCompatActivity {
         SchoolSubject  physics = new SchoolSubject("Physics", false, R.drawable.physics);
         schoolSubjects.add(physics);
 
+        //pass the list to the adapter. first creat the adapter thats just a new class
+
+
 
     }
 }
