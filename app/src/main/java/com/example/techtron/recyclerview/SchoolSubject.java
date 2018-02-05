@@ -7,7 +7,7 @@ package com.example.techtron.recyclerview;
 public class SchoolSubject {
     //basic blue print of each school subject so what does a school subject have
     String subjectName;
-    boolean ishomeworkdone;
+    boolean isHomeworkDone;
     int imageResId;
 
     public SchoolSubject(String subjectName, boolean isHomeworkDone, int imageResId) {
