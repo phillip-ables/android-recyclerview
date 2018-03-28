@@ -35,7 +35,9 @@ public class MainActivity extends AppCompatActivity {
         schoolSubjects.add(physics);
 
         //pass the list to the adapter. first creat the adapter thats just a new class
+        SchoolSubjectsAdapter schoolSubjectsAdapter = new SchoolSubjectsAdapter(getApplicationContext(), schoolSubjects);
 
+        recyclerView.setAdapter(schoolSubjectsAdapter);
 
 
     }
